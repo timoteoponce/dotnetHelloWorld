@@ -32,6 +32,6 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: myapp
-        path: dotnetHelloWorld/myapp/**
+        path: myapp/**
         if-no-files-found: error
 
